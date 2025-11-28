@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Features • EcoStart</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="features.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="EcoStart home">
+        <svg class="brand-mark" viewBox="0 0 48 48" width="36" height="36" aria-hidden="true">
+          <circle cx="24" cy="24" r="22" fill="#E8F5E9"/>
+          <path d="M24 10c6 0 10 5 10 11s-4 11-10 11-10-5-10-11 4-11 10-11z" fill="#1B7A3F"/>
+        </svg>
+        <span class="brand-text">EcoStart</span>
+      </a>
+
+      <nav class="nav" role="navigation" aria-label="Main navigation">
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="how.html">How it works</a></li>
+          <li><a href="features.html" aria-current="page">Features</a></li>
+          <li><a href="students.html">Students</a></li>
+          <li><a class="btn btn-ghost" href="signup.html">Sign up</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="features-hero">
+      <div class="wrap">
+        <h1 class="section-title">Features built for students</h1>
+        <p class="lead">Everything you need to track, learn, and improve — without complexity.</p>
+      </div>
+    </section>
+
+    <section class="features-grid wrap">
+      <div class="feature-card neon">
+        <div class="icon">🌍</div>
+        <h3>Carbon Tracker</h3>
+        <p>Estimate daily CO₂e with clear visual meters and quick logging forms.</p>
+        <a class="link" href="index.html">Try the preview →</a>
+      </div>
+
+      <div class="feature-card soft">
+        <div class="icon">⏰</div>
+        <h3>Habit Reminders</h3>
+        <p>Set reminders tailored to your schedule. Gentle nudges keep habits alive.</p>
+        <a class="link" href="signup.html">Sign up →</a>
+      </div>
+
+      <div class="feature-card mosaic">
+        <div class="icon">🔎</div>
+        <h3>Impact Insights</h3>
+        <p>Personalized tips and class-friendly suggestions to meaningfully reduce emissions.</p>
+        <a class="link" href="how.html">Learn more →</a>
+      </div>
+
+      <div class="feature-card bold">
+        <div class="icon">🏆</div>
+        <h3>Goal Setting</h3>
+        <p>Create weekly goals, invite classmates, and celebrate milestones together.</p>
+        <a class="link" href="students.html">See stories →</a>
+      </div>
+
+      <div class="feature-card cards">
+        <div class="icon">📈</div>
+        <h3>Reports</h3>
+        <p>Download simple reports for class projects and group initiatives.</p>
+        <a class="link" href="how.html">Methodology →</a>
+      </div>
+
+      <div class="feature-card community">
+        <div class="icon">🤝</div>
+        <h3>Class Challenges</h3>
+        <p>Friendly competitions and leaderboards turn small changes into big wins.</p>
+        <a class="link" href="students.html">Join a challenge →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="brand-block">
+        <strong>EcoStart</strong>
+        <p class="muted">Built for students.</p>
+      </div>
+
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="how.html">How it works</a>
+        <a href="features.html">Features</a>
+        <a href="students.html">Students</a>
+      </nav>
+
+      <div class="socials">
+        <a class="social" href="#" aria-label="Twitter">🐦</a>
+        <a class="social" href="#" aria-label="Instagram">📸</a>
+      </div>
+    </div>
+
+    <div class="wrap foot-bottom">
+      <small>© <span id="year"></span> EcoStart — Built for students. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>

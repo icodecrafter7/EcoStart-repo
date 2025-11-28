@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Students • EcoStart</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="students.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="EcoStart home">
+        <svg class="brand-mark" viewBox="0 0 48 48" width="36" height="36" aria-hidden="true">
+          <circle cx="24" cy="24" r="22" fill="#E8F5E9"/>
+          <path d="M24 10c6 0 10 5 10 11s-4 11-10 11-10-5-10-11 4-11 10-11z" fill="#1B7A3F"/>
+        </svg>
+        <span class="brand-text">EcoStart</span>
+      </a>
+
+      <nav class="nav" role="navigation" aria-label="Main navigation">
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="how.html">How it works</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="students.html" aria-current="page">Students</a></li>
+          <li><a class="btn btn-ghost" href="signup.html">Sign up</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="students-hero">
+      <div class="wrap">
+        <h1>Students & Stories</h1>
+        <p class="lead">Real student journeys — small changes, measurable progress.</p>
+      </div>
+    </section>
+
+    <section class="student-cards wrap">
+      <div class="card student-profile">
+        <div class="avatar" style="background-image:url('https://images.unsplash.com/photo-1545996124-1b5eef4bf4e8?auto=format&fit=crop&w=800&q=60')"></div>
+        <h3>Sabiya</h3>
+        <p class="muted">Environmental Science</p>
+        <p>"Swapping one car day for biking saved real CO₂. Seeing it visually kept me going."</p>
+      </div>
+
+      <div class="card student-profile">
+        <div class="avatar" style="background-image:url('https://images.unsplash.com/photo-1531123414780-f5666d7f8a2b?auto=format&fit=crop&w=800&q=60')"></div>
+        <h3>Saurabh</h3>
+        <p class="muted">First-year</p>
+        <p>"Reminders fit my schedule — small wins each week. We used EcoStart for a class project."</p>
+      </div>
+
+      <div class="card student-profile">
+        <div class="avatar" style="background-image:url('https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=60')"></div>
+        <h3>Tashu</h3>
+        <p class="muted">Volunteer</p>
+        <p>"I like how it isn't judgmental — it helps people start without pressure."</p>
+      </div>
+    </section>
+
+    <section class="cta-challenge wrap">
+      <div class="card challenge">
+        <h3>7-day Student Challenge</h3>
+        <p>Join classmates and reduce average CO₂e. Small steps, team leaderboard, and rewards.</p>
+        <a class="btn btn-primary" href="signup.html">Join the challenge</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="brand-block">
+        <strong>EcoStart</strong>
+        <p class="muted">Student-first carbon tracking.</p>
+      </div>
+
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="how.html">How it works</a>
+        <a href="features.html">Features</a>
+        <a href="students.html">Students</a>
+      </nav>
+
+      <div class="socials">
+        <a class="social" href="#" aria-label="Twitter">🐦</a>
+        <a class="social" href="#" aria-label="Instagram">📸</a>
+      </div>
+    </div>
+
+    <div class="wrap foot-bottom">
+      <small>© <span id="year"></span> EcoStart — Built for students. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>EcoStart — Home • Track Carbon & Build Eco Habits</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Shared + Page CSS -->
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="EcoStart home">
+        <svg class="brand-mark" viewBox="0 0 48 48" width="36" height="36" aria-hidden="true">
+          <circle cx="24" cy="24" r="22" fill="#E8F5E9"/>
+          <path d="M24 10c6 0 10 5 10 11s-4 11-10 11-10-5-10-11 4-11 10-11z" fill="#1B7A3F"/>
+        </svg>
+        <span class="brand-text">EcoStart</span>
+      </a>
+
+      <nav class="nav" role="navigation" aria-label="Main navigation">
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="how.html">How it works</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="students.html">Students</a></li>
+          <li><a  href="signup.html">Sign up</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO: big immersive image, parallax, frosted panel -->
+  <main>
+    <section class="hero hero-index">
+      <div class="hero-media" aria-hidden="true"></div>
+
+      <div class="wrap hero-inner">
+        <div class="hero-card frosted">
+          <div class="hero-left">
+            <h1 class="title" style="color: whitesmoke;">Small actions. Big impact.</h1>
+            <p class="subtitle"  style="color:rgb(5, 59, 9);">Track your daily carbon footprint, build eco-friendly habits, and join student challenges — simple, visual, motivating.</p>
+
+            <div class="cta-row">
+              <a class="btn btn-primary" href="signup.html">Get started — it's free</a>
+              <a class="btn btn-outline" href="how.html">Learn how it works</a>
+            </div>
+
+            <ul class="quick-features">
+              <li>30-second daily logging</li>
+              <li>Visual CO₂e meter</li>
+              <li>Streaks & class leaderboards</li>
+            </ul>
+
+            <div class="hero-stats">
+              <div class="stat">
+                <div class="stat-num">7</div>
+                <div class="stat-label">day streak</div>
+              </div>
+              <div class="stat">
+                <div class="stat-num">5.8 kg</div>
+                <div class="stat-label">avg CO₂e / day</div>
+              </div>
+              <div class="stat">
+                <div class="stat-num">+1200</div>
+                <div class="stat-label">students</div>
+              </div>
+            </div>
+          </div>
+
+          <aside class="dashboard-preview">
+            <div class="preview-top">
+              <div>
+                <h4 class="preview-title">Today's footprint</h4>
+                <p class="muted">Estimated CO₂e (visual)</p>
+              </div>
+              <div class="plan-pill">Student</div>
+            </div>
+
+            <div class="meter-wrap">
+              <svg class="meter" viewBox="0 0 120 120" aria-hidden="true">
+                <defs>
+                  <linearGradient id="grad1" x1="0" x2="1">
+                    <stop offset="0" stop-color="#21a366"/>
+                    <stop offset="1" stop-color="#7bd389"/>
+                  </linearGradient>
+                </defs>
+                <circle class="meter-bg" cx="60" cy="60" r="48" />
+                <circle class="meter-bar" cx="60" cy="60" r="48" stroke="url(#grad1)" stroke-linecap="round" />
+                <text x="60" y="66" text-anchor="middle" class="meter-text">6.2<span class="meter-unit">kg</span></text>
+                <text x="60" y="86" text-anchor="middle" class="meter-sub muted">CO₂e today</text>
+              </svg>
+            </div>
+
+            <div class="progress">
+              <div class="progress-row">
+                <div class="progress-info">
+                  <div class="p-title">Weekly goal</div>
+                  <div class="muted">On track</div>
+                </div>
+                <div class="p-bar" aria-hidden="true">
+                  <div class="p-fill" style="width:58%"></div>
+                </div>
+                <div class="p-stats muted">58% of 12 kg/week</div>
+              </div>
+            </div>
+
+            <div class="habit-list">
+              <h5>Habit insights</h5>
+              <ul>
+                <li><strong>Bike</strong> — −0.9 kg</li>
+                <li><strong>Reusable bottle</strong> — avoided disposables</li>
+                <li><strong>Plant-based lunch</strong> — lighter footprint</li>
+              </ul>
+            </div>
+
+            <div class="preview-actions">
+              <a class="link" href="features.html">Open full dashboard</a>
+              <a class="btn btn-sm" href="signup.html">Create account</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+
+      <!-- decorative accents -->
+      <div class="leaf leaf-a" aria-hidden="true"></div>
+      <div class="leaf leaf-b" aria-hidden="true"></div>
+    </section>
+
+    <!-- How / Features / Testimonials preview rows -->
+    <section class="sections-overview wrap-wide">
+      <div class="columns">
+        <article class="card feature-tile glass">
+          <div class="tile-icon">🌿</div>
+          <h3>Track</h3>
+          <p>Log transport, meals, energy in seconds. Friendly defaults for students.</p>
+          <a class="link" href="how.html">Read more →</a>
+        </article>
+
+        <article class="card feature-tile gradient">
+          <div class="tile-icon">📊</div>
+          <h3>Monitor</h3>
+          <p>Daily totals, habit streaks, and easy-to-share reports for class projects.</p>
+          <a class="link" href="features.html">Explore features →</a>
+        </article>
+
+        <article class="card feature-tile image">
+          <div class="tile-icon">⚡</div>
+          <h3>Improve</h3>
+          <p>Personalized tips, reminders, and gamified streak rewards.</p>
+          <a class="link" href="students.html">Student stories →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials wrap">
+      <h2 class="section-title centered">What students say</h2>
+      <div class="test-grid">
+        <blockquote class="test-card">
+          <p class="quote">"EcoStart helped me actually measure my changes. I swapped driving for biking and could see the CO₂ drop."</p>
+          <cite class="muted">— Maya, Environmental Science</cite>
+        </blockquote>
+
+        <blockquote class="test-card">
+          <p class="quote">"Streaks and reminders make a big difference. It's simple and motivating."</p>
+          <cite class="muted">— Alex, First-year</cite>
+        </blockquote>
+
+        <blockquote class="test-card">
+          <p class="quote">"The visuals are friendly and not overwhelming — perfect for students."</p>
+          <cite class="muted">— Priya, Campus Volunteer</cite>
+        </blockquote>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="brand-block">
+        <strong>EcoStart</strong>
+        <p class="muted">Student-friendly carbon tracking and habit-building.</p>
+      </div>
+
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="how.html">How it works</a>
+        <a href="features.html">Features</a>
+        <a href="students.html">Students</a>
+        <a href="signup.html" class="btn btn-ghost">Sign up</a>
+      </nav>
+
+      <div class="socials">
+        <a class="social" href="#" aria-label="Twitter">🐦</a>
+        <a class="social" href="#" aria-label="Instagram">📸</a>
+      </div>
+    </div>
+
+    <div class="wrap foot-bottom">
+      <small>© <span id="year"></span> EcoStart — Built for students. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>

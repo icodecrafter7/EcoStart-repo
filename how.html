@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>How it works • EcoStart</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="how.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="EcoStart home">
+        <svg class="brand-mark" viewBox="0 0 48 48" width="36" height="36" aria-hidden="true">
+          <circle cx="24" cy="24" r="22" fill="#E8F5E9"/>
+          <path d="M24 10c6 0 10 5 10 11s-4 11-10 11-10-5-10-11 4-11 10-11z" fill="#1B7A3F"/>
+        </svg>
+        <span class="brand-text">EcoStart</span>
+      </a>
+
+      <nav class="nav" role="navigation" aria-label="Main navigation">
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="how.html" aria-current="page">How it works</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="students.html">Students</a></li>
+          <li><a class="btn btn-ghost" href="signup.html">Sign up</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="how-hero">
+      <div class="how-hero-media" aria-hidden="true"></div>
+      <div class="wrap how-hero-inner">
+        <div class="how-hero-card">
+          <h1>How EcoStart Helps You Reduce Impact</h1>
+          <p class="lead">Three simple steps, friendly language, and clear visuals designed for students.</p>
+          <a class="btn btn-primary" href="signup.html">Create free account</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="how-steps wrap">
+      <div class="grid-3">
+        <article class="how-step tilt">
+          <div class="step-num">1</div>
+          <h3>Track</h3>
+          <p>Tap a quick activity (ride, meal, electricity). We use approachable default values so you don’t need expert knowledge.</p>
+          <ul class="mini-list">
+            <li>Transport: walking, biking, bus, car</li>
+            <li>Meals: veggie, mixed, meat</li>
+            <li>Energy: lights, laptop usage</li>
+          </ul>
+        </article>
+
+        <article class="how-step tilt alt">
+          <div class="step-num">2</div>
+          <h3>Monitor</h3>
+          <p>See daily totals, weekly goals, and a simple graph that tells your story. Streaks and badges keep you motivated.</p>
+          <div class="badge-row">
+            <div class="badge">Streaks</div>
+            <div class="badge">Class leaderboard</div>
+            <div class="badge">Shareable report</div>
+          </div>
+        </article>
+
+        <article class="how-step tilt">
+          <div class="step-num">3</div>
+          <h3>Improve</h3>
+          <p>Receive personalized tips like "Try biking 1 day this week" and reminders timed to your schedule.</p>
+          <p><strong>Tip:</strong> Small changes repeated matter — celebrate them.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="how-extras wrap">
+      <div class="left">
+        <h3>How numbers are estimated</h3>
+        <p>We use vetted average emission factors for common activities and provide transparent notes so you can understand the assumptions.</p>
+        <a class="link" href="features.html">See the method →</a>
+      </div>
+
+      <aside class="right frosted-card">
+        <h4>Your sample week</h4>
+        <ul class="sample-list">
+          <li>Mon — Bike to campus (−0.9 kg)</li>
+          <li>Tue — Mixed lunch (+1.3 kg)</li>
+          <li>Wed — Bus commute (+0.6 kg)</li>
+        </ul>
+        <div class="note muted">These are estimates for quick guidance, not formal auditing.</div>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="brand-block">
+        <strong>EcoStart</strong>
+        <p class="muted">Student-first carbon tracking.</p>
+      </div>
+
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="how.html">How it works</a>
+        <a href="features.html">Features</a>
+        <a href="students.html">Students</a>
+      </nav>
+
+      <div class="socials">
+        <a class="social" href="#" aria-label="Twitter">🐦</a>
+        <a class="social" href="#" aria-label="Instagram">📸</a>
+      </div>
+    </div>
+
+    <div class="wrap foot-bottom">
+      <small>© <span id="year"></span> EcoStart — Built for students. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>

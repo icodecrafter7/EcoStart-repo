@@ -1,0 +1,15 @@
+/* Signup page styling: clean form with friendly microcopy */
+
+.signup-hero{padding:2.6rem 0;background:linear-gradient(120deg,#f7fff9,#eefcf1)}
+.signup-layout{display:grid;grid-template-columns:1fr 360px;gap:1rem;align-items:start}
+.signup-left{padding:1.6rem;border-radius:14px}
+.signup-right{padding:1.6rem;border-radius:14px;display:flex;flex-direction:column;gap:.8rem}
+.signup-form{display:grid;gap:.9rem;margin-top:1rem}
+.form-row{display:flex;flex-direction:column;gap:.4rem}
+.form-row input{padding:.8rem;border-radius:10px;border:1px solid rgba(34,34,34,0.06);font-size:1rem}
+.actions{display:flex;gap:.8rem;align-items:center}
+.perk-list{list-style:disc;margin-left:1rem;color:var(--muted)}
+.secure-note{font-size:.9rem;color:var(--muted)}
+@media (max-width:980px){
+  .signup-layout{grid-template-columns:1fr}
+}
